@@ -5,7 +5,7 @@ class Menu:
 
     def message(self):
         return self.name + ': ' + str(self.price)  + '円'
-        
+
     def get_total_price(self, count):
         total_price = self.price * count
         return total_price
